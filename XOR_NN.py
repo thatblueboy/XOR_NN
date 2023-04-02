@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib
 from math import log
-from utils import layer, NN
+from NN import layer, NN
 
 x = np.array([[0, 0],
               [0, 1],
@@ -19,7 +19,7 @@ NN = NN(2, 16)
 y_predicted = NN.calculate(x[0:1].T)
 print(y_predicted)
 
-NN.gradient_descent(0.001, 1000, x, y)
+NN.gradient_descent(1, 1000, x, y)
 
 y_predicted = NN.calculate(x[0:1].T)
 print(y_predicted)
