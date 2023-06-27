@@ -1,5 +1,5 @@
 # XOR_NN
-Making a XOR gate using a Nueral Network made from scratch 
+Making a XOR gate using a Neural Network made from scratch 
 
 <p>Making a XOR Neural network is a toy problem in deep learning which involves training a nueral network on 
 data consisting of input and output of a XOR gate.</p>
